@@ -6,17 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/materialize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <title>KYC - Plugin</title>
 </head>
 
 <body>
     <div class="container">
-        <form action="MAILER/mailer.php" method="get">
-            
+        <form action="#" method="get">
+            <div>
+                <label for="fullname">Full Name</label>
+                <input type="text" name="fullname" id="fullname">
+            </div>
+            <div>
+                <label for="telephone">Telephone</label>
+                <input type="tel" name="telphone" id="telephone">
+            </div>
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" name="" class="btn" id="">
+            </div>
+            <div>
+                <textarea name="" placeholder="Message"></textarea>
+            </div>
+            <input type="submit" class="float-action-btn waves mat-input" value="Send">
         </form>
     </div>
-    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
     <script src="js/materialize.min.js"></script>
 </body>
 
